@@ -1,0 +1,19 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ZodiacApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">#EFEEEE</item>
+        <item name="colorPrimaryVariant">#DEDEDE</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="Theme.ZodiacApp" parent="Base.Theme.ZodiacApp" />
+
+    <style name="SplashTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_zodiac</item>
+    </style>
+
+    <style name="DetailTheme" parent="Theme.Material3.DayNight" />
+    <style name="AboutTheme" parent="Theme.Material3.DayNight" />
+</resources>
